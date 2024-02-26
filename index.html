@@ -9,26 +9,33 @@
 </head>
 
 <body>
-    <header><h1>CLOCK</h1></header>
+    <header>
+        <h1>CLOCK</h1>
+    </header>
     <section>
         <div>
-            <div class="container">
-                <div class="hour">
-                    <span id="hour_digit">08</span>
-                    <span>Hours</span>
+
+            <fieldset>
+                <legend>Current Time</legend>
+
+                <div class="container">
+                    <div class="hour">
+                        <span id="hour_digit">08</span>
+                        <span>Hours</span>
+                    </div>
+                    <span id="colon">:</span>
+                    <div class="minutes">
+                        <span id="minutes_digit">50</span>
+                        <span>Minutes</span>
+                    </div>
+                    <span id="colon">:</span>
+                    <div class="sec">
+                        <span id="seconds_digit">53</span>
+                        <span>Seconds</span>
+                    </div>
+                    <span id="time">PM</span>
                 </div>
-                <span id="colon">:</span>
-                <div class="minutes">
-                    <span id="minutes_digit">50</span>
-                    <span>Minutes</span>
-                </div>
-                <span id="colon">:</span>
-                <div class="sec">
-                    <span id="seconds_digit">53</span>
-                    <span>Seconds</span>
-                </div>
-                <span id="time">PM</span>
-            </div>
+            </fieldset>
         </div>
     </section>
     <script src="script.js"></script>
